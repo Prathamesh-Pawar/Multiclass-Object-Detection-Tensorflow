@@ -1,0 +1,138 @@
+
+item{
+	id:1
+	name:"apple"
+
+}
+item{
+	id:2
+	name:"bread"
+
+}
+item{
+	id:3
+	name:"bruscitt"
+
+}
+item{
+	id:4
+	name:"cake"
+
+}
+item{
+	id:5
+	name:"carrot"
+}
+item{
+	id:6
+	name:"cutlet"
+}
+item{
+	id:7
+	name:"fennel_gratin"
+}
+item{
+	id:8
+	name:"fillet_fish"
+}
+item{
+	id:9
+	name:"fries"
+}
+item{
+	id:10
+	name:"green_beans"
+}
+item{
+	id:11
+	name:"lasagna_bolognese"
+}
+item{
+	id:12
+	name:"meat"
+}
+item{
+	id:13
+	name:"orange"
+}
+item{
+	id:14
+	name:"pasta"
+}
+item{
+	id:15
+	name:"pears"
+}
+item{
+	id:16
+	name:"peas"
+}
+item{
+	id:17
+	name:"pizza"
+}
+item{
+	id:18
+	name:"pizzoccheri"
+}
+item{
+	id:19
+	name:"potatoes"
+}
+item{
+	id:20
+	name:"pudding"
+}
+item{
+	id:21
+	name:"rice"
+}
+item{
+	id:22
+	name:"salad"
+}
+item{
+	id:23
+	name:"salty_cake"
+}
+item{
+	id:24
+	name:"savory_pie"
+}
+item{
+	id:25
+	name:"scallops"
+}
+item{
+	id:26
+	name:"soup"
+}
+item{
+	id:27
+	name:"spinach"
+}
+item{
+	id:28
+	name:"squid_stew"
+}
+item{
+	id:29
+	name:"tangerine"
+}
+item{
+	id:30
+	name:"wet_zucchini"
+}
+item{
+	id:31
+	name:"yogurt"
+}
+item{
+	id:32
+	name:"banana"
+}
+item{
+	id:33
+	name:"salmon"
+}
+
