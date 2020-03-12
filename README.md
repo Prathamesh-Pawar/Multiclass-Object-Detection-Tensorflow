@@ -11,6 +11,8 @@ Step 1: Labelling the Images
 
 •	Due to the time constraint half of the image data was labelled.
 
+
+
 Step 2: Transfer Learning
 
 
@@ -22,6 +24,8 @@ Step 2: Transfer Learning
 
 •	We also need to download config file for ssd_resnet50_v1_fpn
 
+
+
 Step 3: Object Detection Repo
 
 •	Clone github repository of object detection.
@@ -29,6 +33,8 @@ Step 3: Object Detection Repo
 •	Using cmd navigate to research directory in models and run ‘python setup.py’
 
 •	This will install all the requirements.
+
+
 
 Step 4: Creating tfrecords
 
@@ -38,9 +44,13 @@ Step 4: Creating tfrecords
 
 •	It creates two files, train.record and test.record.
 
+
+
 Step 5: Creating a label map
 
 •	We create a label_map file that has names of the labels and corresponding ids assigned to them.
+
+
 
 Step 6: Pipeline Configuration
 
@@ -49,6 +59,8 @@ Step 6: Pipeline Configuration
 •	We edit the ssd_resnet50_v1_fpn.config file according to our model.
 
 •	We specify the input path of our .ckpt file of model, train.record, test.record and label_map.
+
+
 
 Step 7: Training
 
@@ -59,6 +71,8 @@ Step 7: Training
 •	We ran this program for around 3800 steps to get a training loss of approximately 0.45.
 
 •	We save the final model as frozen_inference_graph.
+
+
 
 Step 8: Exporting Inference graph:
 
@@ -76,6 +90,8 @@ Step 8: Exporting Inference graph:
 •	We create a .pb file called as frozen_inference_graph in a directory exported_model.
 •	This is the final weight that can be used for the detection.
 
+
+
 Step 9: Testing
 
 •	We used 210 images as a test dataset.
@@ -84,6 +100,8 @@ Step 9: Testing
 1.	 --dir 	     == Image_directory (Images to be tested)
 2.	--label_dir == This is the path to label_map.pbtxt (do not include label_map.pbtxt)
 3.	--model  == Path to frozen_inference_graph (do not include frozen_inference_graph.pb)
+
+
 
 Step 10: Results
 
