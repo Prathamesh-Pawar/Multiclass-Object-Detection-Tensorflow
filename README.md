@@ -72,6 +72,13 @@ Step 7: Training
 
 •	We save the final model as frozen_inference_graph.
 
+NOTE: If you get an error for no module named 'nets'
+Use this: 
+c:\foo\bar\models\research> cd slim
+c:\foo\bar\models\research\slim> move BUILD BUILD.old
+c:\foo\bar\models\research\slim> python setup.py build
+c:\foo\bar\models\research\slim> python setup.py install
+
 
 
 Step 8: Exporting Inference graph:
